@@ -1,7 +1,7 @@
 import { LoginPage } from "../pages/loginPage";
 const loginPage = new LoginPage();
 
-describe("E-commerce Website Automation Test with Cypress: LOGIN TEST", () => {
+describe("E-commerce Website Automation Test: LOGIN TEST", () => {
   it("Navigate to URL https://www.saucedemo.com/", () => {
     loginPage.navigate("https://www.saucedemo.com/");
   });
